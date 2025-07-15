@@ -2,13 +2,13 @@ const products = [
     {
     id: 1,
     name: "Schraube",
-    price: "4.99",
+    price: 4.99,
     image: "",
     },
     {
         id: 2,
         name: "Hammer",
-        price: "29.99",
+        price: 29.99,
         image: "",
     },
     {
