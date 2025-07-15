@@ -29,7 +29,7 @@ products.forEach((product) => {
         <img src="${product.image}" class="card-img-top" alt="${product.name}">
         <div class="card-body d-flex flex-column">
             <h5 class="card-title">${product.name}</h5>
-            <p class="card-text>${product.price.toFixed(2)}€</p>
+            <p class="card-text">${product.price.toFixed(2)}€</p>
             <button class="btn btn-primary mt-auto" disabled>In den Warenkorb</button>
         </div>
     </div>
